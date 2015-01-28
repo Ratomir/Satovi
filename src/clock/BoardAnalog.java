@@ -11,12 +11,16 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Marijana
+ * @author Ratomir
  */
 
 public class BoardAnalog extends JPanel implements Runnable
 {
-    Thread thread = null;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	Thread thread = null;
     SimpleDateFormat formatter = new SimpleDateFormat("s", Locale.getDefault());
     Date currentDate;
     int xcenter = 175, ycenter = 175;

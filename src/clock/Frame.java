@@ -2,18 +2,22 @@ package clock;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
-import java.awt.Window.Type;
+
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 
 /**
  *
- * @author Marijana
+ * @author Ratomir
  */
 public class Frame extends JFrame 
 {
-    private BoardAnalog boardAnalog;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private BoardAnalog boardAnalog;
     private BoardDigital boardDigital;
     
     public Frame() 

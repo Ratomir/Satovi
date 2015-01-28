@@ -2,9 +2,7 @@ package clock;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -12,7 +10,7 @@ import javax.swing.JMenuItem;
 
 /**
  *
- * @author Marijana
+ * @author Ratomir
  */
 
 public class MenuBar 

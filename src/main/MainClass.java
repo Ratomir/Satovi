@@ -9,7 +9,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
- * @author Marijana
+ * @author Ratomir
  */
 public class MainClass
 {
